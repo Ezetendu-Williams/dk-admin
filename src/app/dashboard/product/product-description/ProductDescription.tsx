@@ -26,6 +26,8 @@ export default function ProductDescription() {
           selectOnChange={selectOnChange}
           selectValue={select}
           filterText="description(s)"
+          selectData={[]}
+          setSearch={setSearch}
         />
         ProductDescription
       </div>

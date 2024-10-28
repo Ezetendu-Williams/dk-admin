@@ -24,14 +24,6 @@ export default function Customers() {
     })();
   }, [getCustomers, pageNo]);
 
-  // if (!customers || customers?.length === 0) {
-  //   return (
-  //     <div className="w-full h-full grid place-content-center font-semibold text-[23px]">
-  //       Empty product
-  //     </div>
-  //   );
-  // }
-
   return (
     <DashboardLayout>
       <LoadingOverlay isLoading={isPending} />

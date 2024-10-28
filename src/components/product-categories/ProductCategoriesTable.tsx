@@ -5,7 +5,7 @@ import useAppStore from "../../hooks/store/AppStore";
 import { Pagination, Table } from "@mantine/core";
 import { MdModeEdit } from "react-icons/md";
 import { RiDeleteBin5Line } from "react-icons/ri";
-import EditProductCategoriesForm from "./EditproductCategoriesForm";
+import EditProductCategoriesForm from "./EditProductCategoriesForm";
 import ShowProductCategoryDetails from "./ShowProductCategoryDetails";
 
 interface ProductCategoriesTableProps {
